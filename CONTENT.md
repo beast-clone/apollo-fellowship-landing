@@ -48,7 +48,7 @@ Mobile: logo + single CTA button. Nav collapses.
 ADVANCE YOUR CLINICAL CAREER
 
 **Headline (H1)**
-Specialised Fellowship & Post-MBBS Certification Opportunities
+Post-PG Specialised Fellowships & Post-MBBS Certification Programme
 
 **Sub-headline**
 Explore structured clinical training opportunities from established healthcare institutions, curated by GooCampusWorld for doctors at different stages of their medical careers.
