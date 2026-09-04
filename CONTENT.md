@@ -32,7 +32,7 @@ Advance Your Clinical Career
 | Element | Copy |
 |---|---|
 | Logo | GooCampus lockup (orange + navy), no wordmark suffix |
-| Nav link 1 | Fellowship |
+| Nav link 1 | Post-PG Fellowship |
 | Nav link 2 | Post-MBBS |
 | Nav link 3 | Why Us |
 | Nav link 4 | FAQs |
@@ -343,6 +343,9 @@ All 28 Indian states + 8 union territories, alphabetical. Default: "Select locat
 
 **Submit button**
 Submit Enquiry
+
+**Quick Support** *(left column, under the assurances)*
++91 90199 25847 · 080 4174 3956 — both as `tel:` links
 
 **Consent line (below button, small)**
 By submitting this form, you agree to be contacted by GooCampusWorld regarding programme details.
