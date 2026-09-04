@@ -192,27 +192,27 @@ Why Should You Consider These Programmes?
 **Sub-heading**
 Seven reasons doctors choose structured, hospital-based clinical training.
 
-**Cards (7)**
+**Cards (7)** — each with an outlined line icon (no emoji; they read as unprofessional at this size and don't hold up across platforms)
 
-**🏥 Hospital-Based Clinical Exposure**
+**Hospital-Based Clinical Exposure**
 Gain structured clinical exposure within established hospital environments and develop practical skills and understanding in your chosen clinical area.
 
-**🎯 Focused Clinical Training**
+**Focused Clinical Training**
 Choose a programme aligned with your area of interest and gain specialised experience through a structured clinical training environment.
 
-**💰 Stipend During Training**
+**Stipend During Training**
 Eligible programmes offer a monthly stipend, allowing you to gain clinical experience while receiving financial support during your training.
 
-**📜 Course Completion Certification**
+**Course Completion Certification**
 Upon successful completion of the programme requirements, candidates will receive a Course Completion Certificate jointly awarded by Apollo Hospitals Enterprise Limited and Apollo Hospitals Educational & Research Foundation (AHERF).
 
-**📍 Multiple Programme Locations**
+**Multiple Programme Locations**
 Explore opportunities across multiple cities and hospital locations, with programme availability varying by speciality and location.
 
-**📚 Build a Stronger Professional Portfolio**
+**Build a Stronger Professional Portfolio**
 Go beyond clinical exposure. Depending on the programme and opportunities available, gain exposure to research, clinical audits, academic activities, presentations and other portfolio-building initiatives that can support your long-term career development.
 
-**🚀 Strengthen Your Career Profile**
+**Strengthen Your Career Profile**
 Develop specialised clinical experience, build professional networks and gain exposure to an established healthcare environment — helping you take a more focused next step in your medical career.
 
 ---

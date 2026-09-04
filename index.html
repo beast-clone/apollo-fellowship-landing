@@ -122,7 +122,7 @@ nav.main a:hover::after{right:0}
 .hero-media{position:relative}
 .hero-media .shot{border-radius:var(--r);overflow:hidden;box-shadow:0 30px 70px -34px rgba(8,28,64,.5)}
 .hero-media .shot img{width:100%;height:520px;object-fit:cover;object-position:center top}
-.stat-card{position:absolute;left:-64px;bottom:-38px;background:var(--navy-800);color:#fff;border-radius:var(--r);padding:20px 22px;display:grid;gap:13px;box-shadow:0 24px 50px -26px rgba(8,28,64,.75);max-width:222px}
+.stat-card{position:absolute;left:-34px;bottom:-38px;background:var(--navy-800);color:#fff;border-radius:var(--r);padding:20px 22px;display:grid;gap:13px;box-shadow:0 24px 50px -26px rgba(8,28,64,.75);max-width:222px}
 .stat-card .row{display:flex;gap:11px;align-items:flex-start;font-size:13.5px;line-height:1.45;color:#D6E1F2}
 .stat-card svg{flex:0 0 auto;margin-top:2px}
 
@@ -185,7 +185,8 @@ nav.main a:hover::after{right:0}
 .grid7{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:46px}
 .rcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px 26px;transition:transform .2s ease,box-shadow .2s ease}
 .rcard:hover{transform:translateY(-3px);box-shadow:0 20px 44px -30px rgba(8,28,64,.4)}
-.rcard .ico{width:46px;height:46px;border-radius:12px;background:var(--navy-050);border:1px solid var(--navy-100);display:flex;align-items:center;justify-content:center;font-size:21px;line-height:1}
+.rcard .ico{width:46px;height:46px;border-radius:12px;background:var(--navy-050);border:1px solid var(--navy-100);display:flex;align-items:center;justify-content:center;color:var(--navy-700);flex:0 0 auto}
+.rcard .ico svg{width:25px;height:25px;display:block}
 .rcard h3{font-size:20px;margin-top:18px}
 .rcard p{margin-top:10px;font-size:15px;color:var(--ink-2)}
 .rcard.wide{grid-column:span 3;display:grid;grid-template-columns:46px 1fr;gap:22px;align-items:start}
@@ -291,7 +292,7 @@ footer .brand img{height:46px}
   .burger{display:flex}
   .hero-grid{grid-template-columns:1fr;gap:44px}
   .hero-media .shot img{height:400px}
-  .stat-card{left:auto;right:0;bottom:-26px;max-width:230px}
+  .stat-card{left:12px;right:auto;bottom:-26px;max-width:230px}
   .track-inner,.track.rev .track-inner{grid-template-columns:1fr;gap:38px}
   .track-side{position:static}
   .grid7{grid-template-columns:1fr 1fr}
@@ -375,7 +376,7 @@ footer .brand img{height:46px}
       </div>
 
       <div class="hero-media rv in">
-        <div class="shot"><img src="assets/hero.jpg" alt="Two doctors in a hospital corridor" width="1156" height="1054"></div>
+        <div class="shot"><img src="assets/hero.jpg" alt="A doctor in a bright clinic room" width="1200" height="1095"></div>
         <div class="stat-card">
           <div class="row"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v14M11.5 4H6.4a2.15 2.15 0 0 0 0 4.3h3.2a2.15 2.15 0 0 1 0 4.3H4" stroke="#7FA6E8" stroke-width="1.5" stroke-linecap="round"/></svg>Monthly stipend during training</div>
           <div class="row"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 14.5S13.2 10 13.2 6.4A5.2 5.2 0 0 0 2.8 6.4C2.8 10 8 14.5 8 14.5Z" stroke="#7FA6E8" stroke-width="1.5" stroke-linejoin="round"/><circle cx="8" cy="6.3" r="1.9" stroke="#7FA6E8" stroke-width="1.5"/></svg>Multiple hospital locations across India</div>
@@ -517,13 +518,13 @@ footer .brand img{height:46px}
     </div>
 
     <div class="grid7">
-      <div class="rcard rv"><div class="ico">🏥</div><h3>Hospital-Based Clinical Exposure</h3><p>Gain structured clinical exposure within established hospital environments and develop practical skills and understanding in your chosen clinical area.</p></div>
-      <div class="rcard rv"><div class="ico">🎯</div><h3>Focused Clinical Training</h3><p>Choose a programme aligned with your area of interest and gain specialised experience through a structured clinical training environment.</p></div>
-      <div class="rcard rv"><div class="ico">💰</div><h3>Stipend During Training</h3><p>Eligible programmes offer a monthly stipend, allowing you to gain clinical experience while receiving financial support during your training.</p></div>
-      <div class="rcard rv"><div class="ico">📜</div><h3>Course Completion Certification</h3><p>Upon successful completion of the programme requirements, candidates will receive a Course Completion Certificate jointly awarded by Apollo Hospitals Enterprise Limited and Apollo Hospitals Educational &amp; Research Foundation (AHERF).</p></div>
-      <div class="rcard rv"><div class="ico">📍</div><h3>Multiple Programme Locations</h3><p>Explore opportunities across multiple cities and hospital locations, with programme availability varying by speciality and location.</p></div>
-      <div class="rcard rv"><div class="ico">🚀</div><h3>Strengthen Your Career Profile</h3><p>Develop specialised clinical experience, build professional networks and gain exposure to an established healthcare environment — helping you take a more focused next step in your medical career.</p></div>
-      <div class="rcard wide rv"><div class="ico">📚</div><div class="bd"><h3>Build a Stronger Professional Portfolio</h3><p>Go beyond clinical exposure. Depending on the programme and opportunities available, gain exposure to research, clinical audits, academic activities, presentations and other portfolio-building initiatives that can support your long-term career development.</p></div></div>
+      <div class="rcard rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V7.6a1 1 0 0 1 .55-.9l6.5-3.25a1 1 0 0 1 .9 0l6.5 3.25a1 1 0 0 1 .55.9V21"/><path d="M2.5 21h19"/><path d="M12 8.6v4.8M9.6 11h4.8"/><path d="M9.6 21v-4.2h4.8V21"/></svg></div><h3>Hospital-Based Clinical Exposure</h3><p>Gain structured clinical exposure within established hospital environments and develop practical skills and understanding in your chosen clinical area.</p></div>
+      <div class="rcard rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><circle cx="12" cy="12" r="4.3"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></div><h3>Focused Clinical Training</h3><p>Choose a programme aligned with your area of interest and gain specialised experience through a structured clinical training environment.</p></div>
+      <div class="rcard rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.6" y="6.2" width="18.8" height="11.6" rx="2.4"/><circle cx="12" cy="12" r="2.8"/></svg></div><h3>Stipend During Training</h3><p>Eligible programmes offer a monthly stipend, allowing you to gain clinical experience while receiving financial support during your training.</p></div>
+      <div class="rcard rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9.1" r="5.3"/><path d="M8.5 13.5 7.4 21.2 12 18.7l4.6 2.5-1.1-7.7"/></svg></div><h3>Course Completion Certification</h3><p>Upon successful completion of the programme requirements, candidates will receive a Course Completion Certificate jointly awarded by Apollo Hospitals Enterprise Limited and Apollo Hospitals Educational &amp; Research Foundation (AHERF).</p></div>
+      <div class="rcard rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.4s6.9-5.9 6.9-11a6.9 6.9 0 1 0-13.8 0c0 5.1 6.9 11 6.9 11Z"/><circle cx="12" cy="10.3" r="2.6"/></svg></div><h3>Multiple Programme Locations</h3><p>Explore opportunities across multiple cities and hospital locations, with programme availability varying by speciality and location.</p></div>
+      <div class="rcard rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.4 20.4h17.2"/><path d="M6.4 16.6l4.3-4.7 3.2 2.8L20.2 8"/><path d="M16.3 8h3.9v3.9"/></svg></div><h3>Strengthen Your Career Profile</h3><p>Develop specialised clinical experience, build professional networks and gain exposure to an established healthcare environment — helping you take a more focused next step in your medical career.</p></div>
+      <div class="rcard wide rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.6A1.6 1.6 0 0 1 5.6 4h4.6A1.8 1.8 0 0 1 12 5.8v13a1.8 1.8 0 0 0-1.8-1.8H5.6A1.6 1.6 0 0 1 4 15.4Z"/><path d="M20 5.6A1.6 1.6 0 0 0 18.4 4h-4.6A1.8 1.8 0 0 0 12 5.8v13a1.8 1.8 0 0 1 1.8-1.8h4.6a1.6 1.6 0 0 0 1.6-1.6Z"/></svg></div><div class="bd"><h3>Build a Stronger Professional Portfolio</h3><p>Go beyond clinical exposure. Depending on the programme and opportunities available, gain exposure to research, clinical audits, academic activities, presentations and other portfolio-building initiatives that can support your long-term career development.</p></div></div>
     </div>
   </div>
 </section>
