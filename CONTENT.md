@@ -348,7 +348,7 @@ Submit Enquiry
 By submitting this form, you agree to be contacted by GooCampusWorld regarding programme details.
 
 **Where submissions go**
-Apps Script web app bound to the "Apollo Hospitals Programme" sheet, one row per enquiry into `Sheet1`. Script and deploy steps in `apps-script/`.
+n8n workflow "Apollo Fellowship Landing Page — Leads to Sheet" (`xOIkhKCyp0K2h4Fy`) — POST to `https://n8n.srv1046538.hstgr.cloud/webhook/apollo-fellowship-lead`, appended as one row per enquiry to `Sheet1` of the Apollo Fellowship Programme sheet.
 
 **Success message**
 Thank you. Your details have been received. Our team will contact you shortly with programme information based on your qualification and area of interest.
