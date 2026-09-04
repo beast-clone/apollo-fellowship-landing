@@ -347,6 +347,9 @@ Submit Enquiry
 **Consent line (below button, small)**
 By submitting this form, you agree to be contacted by GooCampusWorld regarding programme details.
 
+**Where submissions go**
+Apps Script web app bound to the "Apollo Hospitals Programme" sheet, one row per enquiry into `Sheet1`. Script and deploy steps in `apps-script/`.
+
 **Success message**
 Thank you. Your details have been received. Our team will contact you shortly with programme information based on your qualification and area of interest.
 

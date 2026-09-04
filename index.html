@@ -748,12 +748,16 @@ footer .brand img{height:56px}
   "use strict";
 
   /* ---------------------------------------------------------------
-     Where enquiries are sent. Leave empty and the form runs in
-     "preview" mode: it validates, shows the thank-you state and logs
-     the payload to the console, but posts nothing anywhere.
-     Set this to the n8n webhook (or other endpoint) to go live.
+     Enquiries go to the Apps Script web app bound to the "Apollo
+     Hospitals Programme" sheet, which appends one row per submission.
+     See apps-script/README.md for the deploy steps.
+
+     Paste the deployment's /exec URL below. While it is empty the form
+     runs in preview mode: it validates and shows the thank-you state,
+     but posts nothing anywhere.
   ----------------------------------------------------------------*/
   var LEAD_ENDPOINT = "";
+  var LEAD_TOKEN    = "gcw-apollo-2026";   // must match SHARED_TOKEN in Code.gs
 
   var $  = function(s,c){ return (c||document).querySelector(s); };
   var $$ = function(s,c){ return Array.prototype.slice.call((c||document).querySelectorAll(s)); };
@@ -969,7 +973,8 @@ footer .brand img{height:56px}
       looking_for: look.value,
       source: "apollo-fellowship-landing",
       page_url: window.location.href,
-      submitted_at: new Date().toISOString()
+      submitted_at: new Date().toISOString(),
+      token: LEAD_TOKEN
     };
 
     var finish = function(){
@@ -987,12 +992,19 @@ footer .brand img{height:56px}
     submitBtn.disabled = true;
     submitBtn.textContent = "Submitting…";
 
+    /* text/plain keeps this a CORS "simple request" so the browser skips
+       the preflight, which an Apps Script web app cannot answer. The script
+       parses the body as JSON either way. */
     fetch(LEAD_ENDPOINT, {
       method: "POST",
-      headers: {"Content-Type":"application/json"},
+      headers: {"Content-Type":"text/plain;charset=utf-8"},
+      redirect: "follow",
       body: JSON.stringify(payload)
     }).then(function(r){
       if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json().catch(function(){ return {ok:true}; });
+    }).then(function(res){
+      if (res && res.ok === false) throw new Error(res.error || "rejected");
       finish();
     }).catch(function(err){
       console.error("Lead submit failed", err);
