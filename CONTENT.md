@@ -31,7 +31,7 @@ Advance Your Clinical Career
 
 | Element | Copy |
 |---|---|
-| Logo | GooCampusWorld |
+| Logo | GooCampus lockup (orange + navy), no wordmark suffix |
 | Nav link 1 | Fellowship |
 | Nav link 2 | Post-MBBS |
 | Nav link 3 | Why Us |
@@ -322,6 +322,8 @@ Check Your Eligibility
 Get programme details based on your qualification and career interests. Fill in your details and our team will get in touch with you.
 
 **Fields**
+
+Area of Interest and Current State are custom listboxes, not native `<select>`s — the OS-drawn native dropdown cannot be themed and looked foreign on the page.
 
 | Field | Type | Placeholder / Options | Required |
 |---|---|---|---|
